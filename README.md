@@ -4,7 +4,7 @@ Screener is a Cross-platform Desktop Application for Screen Recording made with 
 
 ## Used resources
 
-Project made with [Electron](https://www.electronjs.org/)(a framework that enables you to create desktop applications with JavaScript, HTML, and CSS) using [Media Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API)(an API related to [WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API) which provides support for streaming audio and video data). 
+Project made with [Electron](https://www.electronjs.org/) (a framework that enables you to create desktop applications with JavaScript, HTML, and CSS) using [Media Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API) (an API related to [WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API) which provides support for streaming audio and video data). 
 
 ## Usage
 
