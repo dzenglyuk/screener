@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; style-src *"
+        />
+        <title>Screener | Electron Screen Recorder</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css"
+            integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA=="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="content">
+            <h1>Electron Screen Recorder</h1>
+
+            <video></video>
+
+            <button id="start-btn" class="button is-primary">Start</button>
+            <button id="stop-btn" class="button is-warning">Stop</button>
+
+            <hr />
+
+            <button id="select-btn" class="button is-text">
+                Choose a Video Source
+            </button>
+        </div>
+        <script src="render.js"></script>
+    </body>
 </html>

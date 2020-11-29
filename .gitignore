@@ -1,3 +1,6 @@
+#Build folder
+out/
+
 # Logs
 logs
 *.log
